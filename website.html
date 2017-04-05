@@ -1,0 +1,150 @@
+<html>
+
+<head>
+<title> My First Webpage </title>
+</head>
+<p><img src="giphy.gif" align="center" width="87" height="95"> 
+
+<body bgcolor="#FFFF00">
+<h1> Welcome to Prithak Games Page </h1>
+<p> This is a page where you will get many kind of Qbasic games. </p>
+<p>   </p>
+<p><a href="idk.bas">Mysterious Forest</a> 
+<p> That's currently only game online </p>
+<h1> Going to be released </h1>
+<p> 1) Mysterious Forest Gold </p>
+<p> <p/>
+<h1> My Favorite QBASIC Games </h1>
+<p> All are by Team 77 Software </p>
+<p><a href="PuzzleQuest.bas">Puzzle Quest</a> 
+
+<h2> QBASIC TUTORIAL</h2>
+<p> </p>
+<p> </p>
+<h1> Downloads </h1>
+<p>  </p>
+<p> Qbasic is free to download and was used on DOS so you have to use a DOS emulator to run it. </p>
+<p> But I recommend the QB64 version which is perfect if you want to run Qbasic in windows. </p>
+<p> Download link is here:http://www.qb64.net/ </p>
+<p> </p>
+<h1> First Program </h1>
+<p> Before building your first program you should know a thing called statement. Statement are the reserved words which are commonly used for making a program </p>
+<p> For eg: </p>
+<p> 1) PRINT </p>
+<p> 2) CLS </p>
+<p> 3) END </p>
+<p> This are the statements you need to know for your first program <p/>
+<p> Now let's make it :</p>
+<p> </p>
+<p> CLS 'Qbasic show the last output so CLS will clear them </p>
+<p> PRINT "Hello World" 'This statement will print "Hello World" In the screen </p>
+<p> END 'It will terminate the program aka end it </p>
+<p> (' is ignored by the computer I can use it to explain what is it) </p>
+<p> Now after writing this press f5 key to run the program </p>
+<p> Then you should see a black screen saying Hello World </p>
+<img src="program1.jpg"></img>
+<h1> Doing Maths with Print and Let </h1>
+<p> For doing maths you need to know two statements Let and Print. LET statement lets you give the program mathematical formulaes. </p>
+<p> For eg. Let Area = l*b </p>
+<p> Lets build the program now </p>
+<p> CLS ' Clears the screen </p>
+<p> Let l = 20 ' Determines that l(length)=20 </p>
+<p> Let b = 10 ' Determines that b(breadth)=10 </p>
+<p> let area = l*b 'Writing the formulae </p>
+<p> Print "Result";area 'Print the area (remember for it to work what you wrote on let and last of print should be same)
+<p> This is how you do mathmatical operations </p>
+<img src="program2.jpg"></img>
+<h1> Mathematical Operators </h1>
+<p> Sum = + </p>
+<p> Subtract = - </p>
+<p> Multiply = * </p>
+<p> Divide = / </p>
+<p> Modulas Division = MOD </p>
+<p> These are the operators to do mathematical operations </p>
+<h1> Variables </h1>
+<p> The computer can hold many data which are called variables </p>
+<p> String.........Text and characters </p>     
+<p> Integer.......Non-floating-point numbers from -32,768 to 32,767 </p>
+<p> Long..........Non-floating-point numbers from -2,147,483,648 to 2,147,483,647 </p>
+<p> Single........Floating-point numbers from -3.37x10^38 to 3.37x10^38 </p>
+<p> Double......Floating-point numbers from -1.67x10^308 to 1.67x10^308 </p>
+<p> Variables Do </p>
+<p> • Hold Data In Memory </p>
+<p> • Are Assigned A Data Type </p>
+<p> • The Data Can Change Throughout The Program’s Operation</p>
+<p> • The Data Entered Must Be The Same Data Type As Assigned To The Variable </p>
+<p> Variables are a name that is given to the data. The name must not start with a number or character that is not a letter. Also, the name of the variable must not be a reserved name like PRINT, INPUT, LET, ABS, BEEP, etc. </p>
+<p>  There are two ways to declare a variable in QBasic.</p>
+<p>  The first is to put a data type symbol after the name </p>
+<p> $ String % Integer & Long ! Single # Double ## _FLOAT
+<p> Examples: </p>
+
+<p> MyName$ </p>
+<p> Num1% </p>
+<p> Num2! </p>
+<p> Answer! </p>
+
+<p> The second way is the preferred way since Visual Basic uses this method. Becoming accustom to this way will help the transition from QBasic to Visual Basic. DIM is used to make variables of a data type. </p>
+<p> DIM [Variable Name] As Data Type </p>
+<p> DIM [Variable Name] AS STRING </p>
+<p> DIM [Variable Name] AS INTEGER </p>
+<p> DIM [Variable Name] AS LONG </p>
+<p> DIM [Variable Name] AS SINGLE </p>
+<p> DIM [Variable Name] AS DOUBLE </p>
+
+<h1> Input Statement </h1>
+<p> Input statement takes input from the keyboard and saves the input to the computer RAM </p>
+<p> For eg: <p/>
+<p> CLS <p/>
+<p> INPUT "What is your name";name$ </p>
+<p> PRINT "I am";name$ </p>
+<p> END </p>
+<img src="program3.jpg"></img>
+<h1> If Statements </h1>
+<p> If statements have 4 parts: </p>
+<p> 1) If </p>
+<p> 2) End if </p>
+<p> 3) Elseif </p>
+<p> 4) Else </p>
+<p> </p>
+<h1> IF </h1>
+<p> If takes a variable reads it and then goes to a certain label defined on the program </p>
+<p> For eg: </p>
+<p> CLS </p>
+<p> PRINT "1) Ice-Cream"  </p>
+<p> PRINT "2) Choclate" </p>
+<p> Input "What is your choice";choice </p>
+<p> If choice = 1 Then </p>
+<p> Goto label1 ' If statement works like if the value of variable is 1 Then goto label1</p>
+<p> End if 
+<p> <p/>
+<p> label1:
+<p> CLS </p>
+<p> PRINT "HEY THERE"
+<p> End </p>
+<h1> END IF </h1>
+<p> End if should be written at the end of "IF" </p>
+<h1> Elseif </h1>
+<p> Elseif and If are technically same but you have to write if to write this and this doesn't require End if </p>
+<h1> ELSE </h1>
+<p> Else works like if the variable is not what is programmed in if,elseif and end if the program will do something like PRINT "Please enter a valid number" </p>
+<p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
+<h1> Inserting a Picture in Qb64 </h1>
+<p> CODE </p>
+<p>DIM image AS LONG </p1>
+
+<p>SCREEN _NEWIMAGE(800, 600, 32) </p>
+<p>image = _LOADIMAGE("mario.png") 'In cotation mark insert the picture you want</p>
+<p>_PUTIMAGE (100, 100), image </p>
+<p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
+<p> Thats all you need to make a simple program like we created </p>
+<h1> THANKS FOR VISITING </h1>
+
+<p> Want to know the Basics of HTML? We got you covered </p>
+<p><a href="website2.html">Click here> 
+
+
+
+</body>
+
+</html>
